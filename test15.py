@@ -3,4 +3,4 @@
 
 inputdata = ['Страна', 'шалаш', 'Летел', 'вертолёт', 'УЧУ', 'мэм', 'язык']
 
-print(list(filter(lambda x: x == x[::-1], inputdata)))
+print(list(filter(lambda x: x.lower() == x[::-1].lower(), inputdata)))
